@@ -16,11 +16,11 @@ Dear Prof. Zhiguo Wang,
 
 I hope this message finds you well.
 
-My name is [Your Name], and I am a [student/researcher] at [Your Affiliation]. I am writing to request the Smartphone Eye Tracking SDK.
+My name is [Your Name], and I am a [student or researcher] at [Your Affiliation]. I am writing to request the Smartphone Eye Tracking SDK.
 
 I assure you that I will use this model solely for academic and research purposes and will not utilize it for commercial activities or share it with others.
 
-Thank you for considering my request. I look forward to receiving access to the model.
+Thank you for considering my request. I look forward to receiving access to the SDK.
 
 Best regards,
 [Your Name]
@@ -32,7 +32,7 @@ Given that the SDK name is `lib-gaze-tracker-release.aar`. Please use the follow
 ```
 git clone https://github.com/GanchengZhu/DataQualityWithEyeLink
 cd DataQualityWithEyeLink
-mv {sdk folder}/lib-gaze-tracker-release.aar ./lib-gaze-tracker
+mv {sdk folder}/lib-gaze-tracker-release.aar ./lib-gaze-tracker/
 ```
 
 ## Software Preparation
