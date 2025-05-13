@@ -59,21 +59,26 @@ Method 2: Build APK and Install Manually
 - 1. Configure the smartphone and EyeLink Portable Duo according to the instructions in the paper. Open WebLink and set up the video capture card, corresponding calibration positions on the phone screen, and UDP port (recommended: 50880) following the EyeLink official documentation. The relevant code can be found in `app/src/main/java/org/gaze/eyetrackingtest/ReceiverUtil.java`.
 
 - 2. Launch the App. Ensure all permissions are granted, including video recording, camera access, microphone access, etc.
+
      ![screenshots/Screenshot_20240709_144355_Permission controller.jpg](screenshots/Screenshot_20240709_144355_Permission controller.jpg)
 
 - 3. Enter the participant ID (ID must consist of English letters A-Z, a-z, numbers 0-9, or underscores). Toggle the `修改IP` (Modify IP Address) switch to enable IP modification, then input the IP address of your WebLink Host PC. After entering, click `Connection Test` to verify communication between the smartphone and WebLink Host PC.  
+     
      ![screenshots/Screenshot_20240709_144517_EyeTrackingTest.jpg](screenshots/Screenshot_20240709_144517_EyeTrackingTest.jpg)
 
 - 4. Click "Next" to proceed to the instruction screen. The instruction reads:  
      `屏幕上会出现5个带有数字的圆圈，请按照指导人员的要求，依次注视它们。`  
      (English: "Five numbered circles will appear on the screen. Follow the experimenter's instructions to gaze at them sequentially.")  
+     
      ![screenshots/Screenshot_20240709_152053_EyeTrackingTest.jpg](screenshots/Screenshot_20240709_152053_EyeTrackingTest.jpg)
 
 - 5. When the participant understands the instructions, double-tap the screen to initiate Portable Duo calibration via WebLink. The experimenter should guide the participant to fixate on specific points based on instructions displayed on the EyeLink Host PC.  
+     
      ![screenshots/Screenshot_20240709_152103_EyeTrackingTest.jpg](screenshots/Screenshot_20240709_152103_EyeTrackingTest.jpg)
 
 - 6. After completing the EyeLink Portable Duo calibration, double-tap the screen again. A dialog box will appear. Instruct the participant to maintain fixation on the red dot inside the small circle.  
-     ![screenshots/Screenshot_20240709_155107_EyeTrackingTest.jpg](screenshots/Screenshot_20240709_155107_EyeTrackingTest.jpg)
+     
+    ![screenshots/Screenshot_20240709_155107_EyeTrackingTest.jpg](screenshots/Screenshot_20240709_155107_EyeTrackingTest.jpg)
 
 - 7. Click the `校准` (Calibration) button to enter the eye tracking calibration interface. Upon completion, a dialog will display the calibration results. If the error is below 0.75 cm, click the `验证` (Validation) button. Otherwise, re-calibrate by clicking `校准` (Calibration) again.
 
