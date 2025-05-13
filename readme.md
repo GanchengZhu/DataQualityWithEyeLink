@@ -79,5 +79,9 @@ Method 2: Build APK and Install Manually
 
 - 8. EyeLink gaze data is recorded during both calibration and validation phases. **Mobile eye tracking data is collected only during validation.**
 
-- 9. For video demonstrations of experimental procedures, visit:  
+- 9. All eye tracking data can be found in android local storage `/sdcard/Android/data/org.gaze.eyetrackingtest`.
+For Android 11, you could not be allowed to access this folder. Please grant shell permission to MTManager(https://mt2.cn/) by
+installing Shizuku (https://shizuku.rikka.app/) and activating it. 
+
+- 10. For video demonstrations of experimental procedures, visit:  
      https://ganchengzhu.github.io/eye_tracking_data_quality_analysis/
