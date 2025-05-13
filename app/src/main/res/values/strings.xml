@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EyeTrackingTest</string>
+    <string name="subject_id">ID</string>
+    <string name="ip_address">UDP地址</string>
+    <string name="start_experiment">下一步</string>
+    <string name="connect_test">连接测试</string>
+</resources>
