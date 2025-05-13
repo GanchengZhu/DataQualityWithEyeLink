@@ -60,7 +60,7 @@ Method 2: Build APK and Install Manually
 
 - 2. Launch the App. Ensure all permissions are granted, including video recording, camera access, microphone access, etc.
 
-     ![screenshots/Permission controller.jpg](screenshots/Permission controller.jpg)
+     ![screenshots/Permission_controller.jpg](screenshots/Permission_controller.jpg)
 
 - 3. Enter the participant ID (ID must consist of English letters A-Z, a-z, numbers 0-9, or underscores). Toggle the `修改IP` (Modify IP Address) switch to enable IP modification, then input the IP address of your WebLink Host PC. After entering, click `Connection Test` to verify communication between the smartphone and WebLink Host PC.  
      
