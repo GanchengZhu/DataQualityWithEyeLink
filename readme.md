@@ -54,11 +54,11 @@ Method 2: Build APK and Install Manually
 - Locate the generated APK file (usually in app/build/outputs/apk/debug/).
 - Transfer the APK to your phone, open it in your file manager, and follow the prompts to install.
 
-## How to conduct data quality
+## How to conduct data quality experiment
 
 - 1. Configure the smartphone and EyeLink Portable Duo according to the instructions in the paper. Open WebLink and set up the video capture card, corresponding calibration positions on the phone screen, and UDP port (recommended: 50880) following the EyeLink official documentation. The relevant code can be found in `app/src/main/java/org/gaze/eyetrackingtest/ReceiverUtil.java`.
 
-- 2. Launch the App. Ensure all permissions are granted, including video recording, camera access, microphone access, etc.  
+- 2. Launch the App. Ensure all permissions are granted, including video recording, camera access, microphone access, etc.
      ![screenshots/Screenshot_20240709_144355_Permission controller.jpg](screenshots/Screenshot_20240709_144355_Permission controller.jpg)
 
 - 3. Enter the participant ID (ID must consist of English letters A-Z, a-z, numbers 0-9, or underscores). Toggle the `修改IP` (Modify IP Address) switch to enable IP modification, then input the IP address of your WebLink Host PC. After entering, click `Connection Test` to verify communication between the smartphone and WebLink Host PC.  
