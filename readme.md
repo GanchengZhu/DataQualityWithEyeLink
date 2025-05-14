@@ -35,6 +35,9 @@ cd DataQualityWithEyeLink
 mv {sdk folder}/lib-gaze-tracker-release.aar ./lib-gaze-tracker/
 ```
 
+The SDK Documentation please refers to [this page](https://github.com/GanchengZhu/eye_tracking_data_quality_analysis/).
+
+
 ## Software Preparation
 
 - Android Studio Iguana | 2023.2.1 Patch 1
